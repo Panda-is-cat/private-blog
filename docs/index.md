@@ -14,25 +14,25 @@ hide:
     ---
     数学、计算机科学等各类学习记录
 
-    [:octicons-arrow-right-24: 查看笔记](Private-blog/docs/note/intro.md)
+    [:octicons-arrow-right-24: 查看笔记](note/intro.md)
 
 - :fontawesome-brands-github: **技术博客**
 
     ---
     技术文章、和项目记录
 
-    [:octicons-arrow-right-24: 查看技术博客](Private-blog/docs/project/intro.md)
+    [:octicons-arrow-right-24: 查看技术博客](project/intro.md)
 
 - :fontawesome-solid-landmark: **记录**
 
     ---
     更新并存档  热门/重要 事件
-    [:octicons-arrow-right-24: 查看记录](Private-blog/docs/record/intro.md)
+    [:octicons-arrow-right-24: 查看记录](record/intro.md)
 
 - :fontawesome-solid-person: **关于我**
 
     ---
     关于作者 支持作者
 
-    [:octicons-arrow-right-24: 关于我](Private-blog/docs/about/intro.md)
+    [:octicons-arrow-right-24: 关于我](about/intro.md)
 </div>
