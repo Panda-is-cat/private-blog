@@ -1,0 +1,107 @@
+[project]
+site_name = "Panda is cat的博客"
+site_author = "Panda is cat"
+copyright = """
+Copyright &copy; 2026 Panda is cat
+# """
+## 目录
+# nav = [
+#   { "首页" = "index.md" },
+#   { "笔记" = "note/index.md" },
+#   { "项目" = [
+#     { "简介" = "project/index.md" },
+#     { "Iceberg" = [
+#       { "简介" = "project/Iceberg/index.md" },
+#       { "Chess" = [
+#         { "简介" = "project/Iceberg/CHess/index.md" },
+#         { "plan" = "project/Iceberg/Chess/plan.md" },
+#       ]},
+#     ]},
+#   ]},
+#   { "记录" = "record/index.md" },
+#   { "关于" = "about/index.md" },
+#   { "Zensical" = [
+#     { "示例"          = "zensical/example.md" },
+#     { "Markdown 示例" = "zensical/example_markdown.md" },
+#     { "计划"          = "zensical/plan.md" },
+#     { "工作流"        = "zensical/workflow.md" },
+#   ]},
+# ]
+[project.theme]
+name = "flexoki"
+variant = "modern"
+language = "zh"
+features = [
+    # --- 导航体验 ---
+    "navigation.instant",           # SPA 式导航，页面切换无刷新
+    "navigation.instant.prefetch",  # 悬停链接时预加载，感知更快
+    "navigation.instant.progress",  # 慢网络时显示顶部进度条
+    "navigation.tabs",              # 顶部标签页（一级目录）
+    "navigation.sections",          # 侧边栏分组标题
+    "navigation.expand",            # 侧边栏自动展开
+    "navigation.path",              # 面包屑导航
+    "navigation.indexes",           # 目录可以有自己的 index.md
+    "navigation.top",               # 滚动时显示「回到顶部」按钮
+    "navigation.footer",            # 页面底部上一页/下一页
+
+    # --- 搜索体验 ---
+    "search.suggest",               # 搜索自动补全建议
+    "search.highlight",             # 搜索结果高亮
+    "search.share",                 # 搜索结果可分享链接
+
+    # --- 内容体验 ---
+    "content.code.copy",            # 代码块右上角复制按钮
+    "content.code.annotate",        # 代码注释（悬浮提示）
+    "content.tabs.link",            # 内容标签页联动（全站同步选中）
+    "content.footnote.tooltips",    # 脚注鼠标悬浮显示
+    "content.tooltips",             # 缩略词悬浮注释（abbr 扩展）
+
+    # --- 目录体验 ---
+    "toc.follow",                   # 右侧目录跟随滚动高亮
+    "toc.integrate",                # 把目录整合进左侧导航栏
+]
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+permalink = true
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.betterem]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.magiclink]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+combine_header_slug = true
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+[project.markdown_extensions.pymdownx.tilde]
+# 插件配置

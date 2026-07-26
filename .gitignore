@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Zensical build output (CI rebuilds)
+site/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

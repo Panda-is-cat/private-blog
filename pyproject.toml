@@ -1,0 +1,7 @@
+[project]
+name = "private-blog"
+version = "0.1.0"
+dependencies = [
+    "flexoki-zensical>=0.1.1",
+    "zensical",
+]
